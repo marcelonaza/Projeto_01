@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Ruff cache
+.ruff_cache/
+
+# SQLite local database (fallback - não versionar)
+sales.db
+
+# Environment variables (credenciais - NUNCA versionar)
+.env
+
+# macOS
+.DS_Store
